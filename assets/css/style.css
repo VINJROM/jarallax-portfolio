@@ -125,14 +125,15 @@ html {
 }
 
 .pimg3 {
-    background-image: url('../images/photo-25.jpeg');
+    background-image: url('../images/photo-8.jpeg');
     min-height: 400px;
 }
 
 .pimg4 {
-    background-image: url('../images/photo-8.jpeg');
+    background-image: url('../images/photo-25.jpeg');
     min-height: 400px;
 }
+
 
 .section {
     text-align: center;
