@@ -77,10 +77,10 @@ html {
 }
 
 .introText {
-  margin-top: -13%;
+  /* margin-top: -13%; */
   color: black;
   position: absolute;
-  top: 52%;
+  top: 40%;
   width: 100%;
   text-align: center;
   /* color: #000; */
@@ -229,13 +229,110 @@ html {
 
 /*---------------  Media Queries */
 
-@media (max-width: 568px) {
+@media (max-width: 1641px) {
   .ptext {
     font-size: 14px;
     line-height: 60px;
   }
   .introText {
-    top: 46%;
+    top: 34%;
+  }
+}
+
+@media (max-width: 1401px) {
+  .ptext {
+    font-size: 14px;
+    line-height: 60px;
+  }
+  .introText {
+    top: 35%;
+  }
+}
+
+@media (max-width: 1085px) {
+  .ptext {
+    font-size: 14px;
+    line-height: 60px;
+  }
+  .introText {
+    top: 36%;
+  }
+}
+@media (max-width: 1025px) {
+  .ptext {
+    font-size: 14px;
+    line-height: 60px;
+  }
+  .introText {
+    top: 38%;
+  }
+}
+
+@media (max-width: 801px) {
+  .ptext {
+    font-size: 14px;
+    line-height: 60px;
+  }
+  .introText {
+    top: 38%;
+  }
+}
+
+@media (max-width: 401px) {
+  .ptext {
+    font-size: 14px;
+    line-height: 60px;
+  }
+  .introText {
+    top: 37%;
+  }
+}
+
+@media (max-width: 415px) {
+  .ptext {
+    font-size: 14px;
+    line-height: 60px;
+  }
+  .introText {
+    top: 36%;
+  }
+}
+@media (max-width: 376px) {
+  .ptext {
+    font-size: 14px;
+    line-height: 60px;
+  }
+  .introText {
+    top: 35%;
+  }
+}
+
+@media (max-width: 361px) {
+  .ptext {
+    font-size: 14px;
+    line-height: 60px;
+  }
+  .introText {
+    top: 34%;
+  }
+}
+
+@media (max-width: 345px) {
+  .ptext {
+    font-size: 14px;
+    line-height: 60px;
+  }
+  .introText {
+    top: 37%;
+  }
+}
+@media (max-width: 321px) {
+  .ptext {
+    font-size: 14px;
+    line-height: 60px;
+  }
+  .introText {
+    top: 28%;
   }
 }
 
