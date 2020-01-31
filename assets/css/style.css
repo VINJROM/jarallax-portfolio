@@ -229,10 +229,19 @@ html {
 
 /*---------------  Media Queries */
 
+@media (min-width: 1641px) {
+  .ptext {
+    font-size: 14px;
+    line-height: 50%;
+  }
+  .introText {
+    top: 34%;
+  }
+}
 @media (max-width: 1641px) {
   .ptext {
     font-size: 14px;
-    line-height: 60px;
+    line-height: 50%;
   }
   .introText {
     top: 34%;
@@ -242,7 +251,7 @@ html {
 @media (max-width: 1401px) {
   .ptext {
     font-size: 14px;
-    line-height: 60px;
+    line-height: 50%;
   }
   .introText {
     top: 35%;
@@ -252,7 +261,7 @@ html {
 @media (max-width: 1085px) {
   .ptext {
     font-size: 14px;
-    line-height: 60px;
+    line-height: 50%;
   }
   .introText {
     top: 36%;
@@ -261,7 +270,7 @@ html {
 @media (max-width: 1025px) {
   .ptext {
     font-size: 14px;
-    line-height: 60px;
+    line-height: 50%;
   }
   .introText {
     top: 38%;
@@ -271,7 +280,7 @@ html {
 @media (max-width: 801px) {
   .ptext {
     font-size: 14px;
-    line-height: 60px;
+    line-height: 50%;
   }
   .introText {
     top: 38%;
@@ -281,7 +290,7 @@ html {
 @media (max-width: 401px) {
   .ptext {
     font-size: 14px;
-    line-height: 60px;
+    line-height: 50%;
   }
   .introText {
     top: 37%;
@@ -291,7 +300,7 @@ html {
 @media (max-width: 415px) {
   .ptext {
     font-size: 14px;
-    line-height: 60px;
+    line-height: 50%;
   }
   .introText {
     top: 36%;
@@ -300,7 +309,7 @@ html {
 @media (max-width: 376px) {
   .ptext {
     font-size: 14px;
-    line-height: 60px;
+    line-height: 50%;
   }
   .introText {
     top: 35%;
@@ -310,7 +319,7 @@ html {
 @media (max-width: 361px) {
   .ptext {
     font-size: 14px;
-    line-height: 60px;
+    line-height: 50%;
   }
   .introText {
     top: 34%;
@@ -320,7 +329,7 @@ html {
 @media (max-width: 345px) {
   .ptext {
     font-size: 14px;
-    line-height: 60px;
+    line-height: 50%;
   }
   .introText {
     top: 37%;
@@ -329,7 +338,7 @@ html {
 @media (max-width: 321px) {
   .ptext {
     font-size: 14px;
-    line-height: 60px;
+    line-height: 50%;
   }
   .introText {
     top: 28%;
