@@ -229,122 +229,26 @@ html {
 
 /*---------------  Media Queries */
 
-/* @media (min-width: 1641px) {
-  .ptext {
-    font-size: 14px;
-    line-height: 50%;
-  }
-  .introText {
-    top: 34%;
-  }
-}
-@media (max-width: 1641px) {
-  .ptext {
-    font-size: 14px;
-    line-height: 50%;
-  }
-  .introText {
-    top: 34%;
-  }
-}
-
-@media (max-width: 1401px) {
-  .ptext {
-    font-size: 14px;
-    line-height: 50%;
-  }
-  .introText {
-    top: 35%;
-  }
-}
-
-@media (max-width: 1085px) {
-  .ptext {
-    font-size: 14px;
-    line-height: 50%;
-  }
-  .introText {
-    top: 36%;
-  }
-}
-@media (max-width: 1025px) {
-  .ptext {
-    font-size: 14px;
-    line-height: 50%;
-  }
-  .introText {
-    top: 38%;
-  }
-}
-
-@media (max-width: 801px) {
-  .ptext {
-    font-size: 14px;
-    line-height: 50%;
-  }
-  .introText {
-    top: 38%;
-  }
-}
-
-@media (max-width: 401px) {
-  .ptext {
-    font-size: 14px;
-    line-height: 50%;
-  }
-  .introText {
-    top: 37%;
-  }
-}
-
-@media (max-width: 415px) {
-  .ptext {
-    font-size: 14px;
-    line-height: 50%;
-  }
-  .introText {
-    top: 36%;
-  }
-}
-@media (max-width: 376px) {
-  .ptext {
-    font-size: 14px;
-    line-height: 50%;
-  }
-  .introText {
-    top: 35%;
-  }
-}
-
-@media (max-width: 361px) {
-  .ptext {
-    font-size: 14px;
-    line-height: 50%;
-  }
-  .introText {
-    top: 34%;
-  }
-}
 
 @media (max-width: 345px) {
   .ptext {
     font-size: 14px;
-    line-height: 50%;
+    line-height: 42%;
   }
   .introText {
-    top: 37%;
+    top: 40%;
   }
 }
-@media (max-width: 321px) {
+
+@media (max-width: 190px) {
   .ptext {
     font-size: 14px;
-    line-height: 50%;
+    line-height: 42%;
   }
   .introText {
-    top: 28%;
+    top: 38%;
   }
-} */
-
+}
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 
 @media screen and (max-height: 450px) {
