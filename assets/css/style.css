@@ -80,7 +80,7 @@ html {
   /* margin-top: -13%; */
   color: black;
   position: absolute;
-  top: 40%;
+  top: 43%;
   width: 100%;
   text-align: center;
   /* color: #000; */
@@ -229,7 +229,7 @@ html {
 
 /*---------------  Media Queries */
 
-@media (min-width: 1641px) {
+/* @media (min-width: 1641px) {
   .ptext {
     font-size: 14px;
     line-height: 50%;
@@ -343,7 +343,7 @@ html {
   .introText {
     top: 28%;
   }
-}
+} */
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 
