@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Asap+Condensed|Open+Sans|Open+Sans+Condensed:300&display=swap"
+        rel="stylesheet">
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
+
+    <!-- Jarallax -->
+    <!-- <script src="jarallax/dist/jarallax.min.js"></script> -->
+
+    <!-- Add a favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Local JS -->
+    <script src="assets/js/app.js"></script>
+
+    <title>Vincent's Profile</title>
+</head>
+
+<body>
+
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closeButton" onclick="closeNav()">×</a>
+        <a href="#bio">Bio</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+
+    <div class="pimg1">
+        <div id="navbar">
+            <button class="openButton" onclick="openNav()">☰</button>
+        </div>
+        <div class="introText">
+            <div class="intro">hi, my name's</div>
+            <br>
+            <span class="name">
+                Vincent Romine
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-light">
+        <a name="bio"></a>
+        <h2>Brief Bio</h2>
+
+        <p>I'm a self motivated Web Developer with a background in Accounting-Systems & Finance. My aim is to create
+            exceptional user-focused web applications that are pleasing and pragmatic. I have built front-end
+            applications implementing html, css, Bootstrap, and deployed server-side applications using MySQL, MongoDB,
+            and React.js. I am continuously advancing my software-engineering development via project deployment on
+            Github. Scroll below to see what I'm working on.</p>
+    </section>
+
+    <div class="pimg2">
+        <div class="ptext">
+            <span class="border">
+                Projects & Technical Skills
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-dark">
+        <h2>The Good Stuff</h2>
+        <p>Here are some applications I've developed during my time at the University of Minnesota's Full Stack
+            Development Bootcamp. PHP, MySQL, MongoDB, and React are technologies used in the development of these
+            projects. My
+            collection is growing and being updated regularly.</p>
+    </section>
+
+
+
+    <div class="pimg3">
+        <a name="projects"></a>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="ptext apptext">
+                        <span class="border">
+                            Apps
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="main-portfolio">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="work">
+                            <a href="https://vinjrom.github.io/bamazon/" target="_blank">
+                                <img id="bamazon"
+                                    src="https://raw.githubusercontent.com/VINJROM/bamazon/master/screenshots/customer_01.png"
+                                    width="274px" height="210px" alt="Bamazon Storefront">
+                                <div class="caption">Bamazon Storefront</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="work">
+                            <a href="https://jebbla.github.io/Recycle-It/" target="_blank">
+                                <img id="recycleIt" src="./assets/images/RecycleIt.jpg" width="274px" height="210px"
+                                    alt="Recycle-It!">
+                                <div class="caption">Recycle It!</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="work">
+                            <a href="https://vinjrom.github.io/giftastic/" target="_blank">
+                                <img src="./assets/images/Giftastic.jpg" width="274px" height="210px" alt="Giftastic">
+                                <div class="caption">Giftastic</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="work">
+                            <a href="https://immense-eyrie-01740.herokuapp.com/" target="_blank">
+                                <img src="https://reel360.com/wp-content/uploads/2017/09/ONION001.jpg" width="274px"
+                                    height="210px" alt="Onion Scraper">
+                                <div class="caption">Onion Scraper</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="work">
+                            <a href="https://vinjrom.github.io/train-scheduler/" target="_blank">
+                                <img src="https://i.pinimg.com/236x/03/58/9c/03589ccff92768437e21673463979d0d--train-room-yearbook-ideas.jpg"
+                                    width="274px" height="210px" alt="Train Scheduler">
+                                <div class="caption">Train Scheduler</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!---------------------- PROJECT LIST -->
+    <section class="section section-dark">
+        <h2>Built For Fun</h2>
+
+        <p>As part of the University of Minnesota's Full Stack
+            Development Bootcamp, students create a number of games. Below are some of the games I've created</p>
+
+    </section>
+
+    <div class="pimg4">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="ptext apptext">
+                        <span class="border">
+                            Games
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="main-portfolio">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="work">
+                            <a href="https://murmuring-cliffs-22501.herokuapp.com/" target="_blank">
+                                <img src="https://www.whats-on-netflix.com/wp-content/uploads/2017/10/its-always-sunny-leaving-netflix.jpg"
+                                    width="274px" height="210px" alt="Giftastic">
+                                <div class="caption">Always Sunny Clicky Game</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="work">
+                            <a href="https://vinjrom.github.io/crystal-game.io/" target="_blank">
+                                <img id="crystalGame" src="./assets/images/CrystalGame.jpg" width="274px" height="210px"
+                                    alt="Crystal Game">
+                                <div class="caption">Crystal Game</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="work">
+                            <a href="https://vinjrom.github.io/90s-trivia/" target="_blank">
+                                <img id="trivia" src="./assets/images/90sTrivia.jpg" width="274px" height="210px"
+                                    alt="90s Trivia">
+                                <div class="caption">90s Trivia!</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <section class="section section-dark">
+        <a name="contact"></a>
+        <h2>Contact Info</h2>
+        <div class="row">
+            <div class ="col-sm-4"></div>
+            <div class ="col-md-4">
+            <div class="contact">
+                <li>Email: vinjrom@live.com</li>
+                <li>Phone: 612-254-3703</li>
+                <li>Github: <a href="https://github.com/VINJROM" target="_blank">https://github.com/VINJROM</a></li>
+                <li>Linkedin: <a href="https://www.linkedin.com/in/vincent-romine-796037134/" target="_blank">Vincent
+                        Romine</a></li>
+            </div>
+        </div>
+        <div class= "col-sm-4"></div>
+        </div>
+    </section>
+
+    <div class="pimg1">
+        <div class="ptext">
+
+        </div>
+    </div>
+
+</body>
+<footer class="footer">
+    <div class='container'>
+        <p>©Vincent Romine</p>
+    </div>
+</footer>
+
+</html>
