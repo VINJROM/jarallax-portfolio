@@ -222,36 +222,31 @@ html {
 .contact {
   text-align: left;
   margin: 30px 0 30px 0;
+  width: 400px;
 }
 
 .proPic {
-  height:200px;
-  position:relative;
+  height: 200px;
+  position: relative;
   margin-left: 100px;
-
 }
 /*---------------  Media Queries */
 
-
-@media (max-width: 345px) {
+@media (max-width: 685px) {
   .ptext {
     font-size: 14px;
-    line-height: 42%;
+    /* line-height: 100px; */
   }
   .introText {
     bottom: 49%;
   }
 }
-
-@media (max-width: 190px) {
-  .ptext {
-    font-size: 14px;
-    line-height: 42%;
-  }
-  .introText {
-    bottom: 49%;
+@media (max-width: 1360px) {
+  .proPic {
+    margin-left: 0px;
   }
 }
+
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 
 @media screen and (max-height: 450px) {
